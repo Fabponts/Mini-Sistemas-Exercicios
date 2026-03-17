@@ -14,5 +14,4 @@ public class MenuView {
                 """;
         System.out.println(menu);
     }
-
 }

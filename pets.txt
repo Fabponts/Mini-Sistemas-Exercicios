@@ -1,0 +1,1 @@
+id: 2 | Nome: Yuri | Idade: 22 | Raca: Humano | Sexo: M | Cor: Preto
