@@ -6,7 +6,7 @@ public class MenuView {
         String menu = """
                 ===================Bem vindo ao avaliador de filme pessoal===================
                 ===================Selecione a ação que deseja realizar===================
-                1-Inclua um titulo e avalie
+                1-Inclua um filme
                 2-Listar seus filmes
                 3-Buscar um filme por titulo
                 4-Remover filme

@@ -2,9 +2,7 @@ package com.fabricio.exercicio.cinema.repository;
 
 import com.fabricio.exercicio.cinema.model.Movie;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class MovieRepository {
     private final String ARQUIVO_MOVIE = "movie.txt";
@@ -20,5 +18,14 @@ public class MovieRepository {
             );
             bw.newLine();
         }
+    }
+    public void lerFilme() throws IOException {
+        try(BufferedReader br = new BufferedReader(new FileReader(ARQUIVO_MOVIE))) {
+            String linha;
+            while((linha = br.readLine()) != null){
+                System.out.println(linha);
+            }
+        }
+        System.out.println("---------------FIM DA LISTA---------------");
     }
 }

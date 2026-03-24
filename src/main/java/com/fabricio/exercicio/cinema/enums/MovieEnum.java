@@ -7,5 +7,6 @@ public enum MovieEnum {
     ROMANCE,
     DRAMA,
     SCIFI,
+    ANIMACAO,
 
 }
